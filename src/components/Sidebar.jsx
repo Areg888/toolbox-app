@@ -53,7 +53,7 @@ const Sidebar = ({ open, onToggle }) => {
       text: "Calculator",
       icon: <CalculateIcon />,
       path: "/calculator",
-      status: "coming-soon",
+      status: "ready",
       description: "Advanced calculations"
     },
     {

@@ -46,7 +46,7 @@ const Home = () => {
       icon: <CalculateIcon sx={{ fontSize: 40 }} />,
       color: '#ff9800',
       features: ['Basic Operations', 'Scientific Functions', 'History', 'Memory Functions'],
-      status: 'Coming Soon',
+      status: 'Ready',
       path: '/calculator'
     },
     {

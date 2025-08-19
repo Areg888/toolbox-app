@@ -5,6 +5,7 @@ import { Menu as MenuIcon } from "@mui/icons-material";
 import Sidebar from "./components/Sidebar";
 import Home from "./pages/Home";
 import Todo from "./pages/Todo";
+import Calculator from "./pages/Calculator";
 import './App.css';
 
 // Create a theme instance
@@ -146,7 +147,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/todo" element={<Todo />} />
-              <Route path="/calculator" element={<ComingSoon title="Calculator" description="Advanced calculator with scientific functions coming soon!" />} />
+              <Route path="/calculator" element={<Calculator />} />
               <Route path="/calendar" element={<ComingSoon title="Calendar" description="Schedule management and event planning coming soon!" />} />
               <Route path="/timer" element={<ComingSoon title="Timer & Stopwatch" description="Precise timing tools coming soon!" />} />
               <Route path="/converter" element={<ComingSoon title="Unit Converter" description="Convert between different units of measurement coming soon!" />} />
